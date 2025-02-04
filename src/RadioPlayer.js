@@ -72,8 +72,8 @@ const RadioPlayer = () => {
         <label htmlFor="stations">Wybierz stację: </label>
         <select id="stations" onChange={handleStationChange} value={station}>
           <option value="http://redir.atmcdn.pl/sc/o2/Eurozet/live/antyradio.livx">Antyradio</option>
-          <option value="http://stream3.polskieradio.pl:8904/;">Polskie Radio 1</option>
-          <option value="http://stream3.polskieradio.pl:8906/;">Polskie Radio 2</option>
+          <option value="https://17653.live.streamtheworld.com/WABCAMAAC.aac/;">77 WABC</option>
+          <option value="https://auds1.intacs.com/weeradioonline;">Wee Radio</option>
         </select>
       </div>
       <div>
